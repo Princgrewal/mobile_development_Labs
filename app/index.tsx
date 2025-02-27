@@ -72,20 +72,15 @@ export default function App() {
       <Text>{a}</Text>
 
       <TouchableOpacity
-        style={{
-          backgroundColor: "#2d7ef7",
-          padding: 10,
-          borderRadius: 10,
-          marginTop: 10,
-          marginBottom: 10,
-        }}
+        style={{ backgroundColor: "#2d7ef7", padding: 10, borderRadius: 10, marginTop: 10, marginBottom: 10 }}
       >
         <Text style={{ color: "white" }}>
           <Link href="/lab4">lab 4</Link>
         </Text>
       </TouchableOpacity>
+
       <TouchableOpacity
-        style={{ backgroundColor: "#2d7ef7", padding: 10, borderRadius: 10 }}
+        style={{ backgroundColor: "#2d7ef7", padding: 10, borderRadius: 10, marginBottom: 10 }}
       >
         <Text style={{ color: "white" }}>
           <Link href="/lab5">lab 5</Link>
